@@ -34,15 +34,15 @@ def test_collections_structure():
 
 def test_meta():
     expected_meta = {
-        "name": "Based Apes",
-        "inscription_icon": "159f5b1437375424ba798c92f10670f19baf3e5d10be3bf5fbd4d4a50cf642ddi0",
-        "supply": "100",
-        "slug": "based-apes",
-        "description": "",
-        "twitter_link": "https://twitter.com/BasedApes",
-        "discord_link": "https://discord.com/invite/ordinalswallet",
-        "website_link": "",
-    }
+    "name": "Lit Punks",
+    "inscription_icon": "3d37fae790199311cf29be0e93954ab5cfe53af866468e5d4ba9659c6607f5dfi0",
+    "supply": "10000",
+    "slug": "lit-punks",
+    "description": "Lit Punks are the first byte-perfect uploads of the original Ethereum CryptoPunks onto the Litecoin Blockchain using Ordinals.",
+    "twitter_link": "https://twitter.com/@lit_punks_ords",
+    "discord_link": "https://discord.gg/AQvqEcvx",
+    "website_link": "https://litecoinpunks.com"
+  }
     current_collections = os.listdir(COLLECTIONS)
 
     for x in current_collections:

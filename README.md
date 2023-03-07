@@ -1,6 +1,8 @@
-# Ordinals Collections Standards
+# Litecoin Ordinals Collections Standards
 
 #### A place for creators &amp; builders to organize ordinal collections!
+
+Forked from https://github.com/ordinals-wallet/ordinals-collections
 
 ## Getting Started
 
@@ -11,7 +13,7 @@ Collection creators can format their collection data using the `inscriptions.jso
 **_Steps_**
 
 1. Create your `inscriptions.json` and `meta.json` files in the format provided below
-    - Check out [this](https://ordinals-metadata-composer.vercel.app/) file formatting tool!
+   - ~~Check out [this](https://ordinals-metadata-composer.vercel.app/) file formatting tool!~~ (TODO: Make metadata composer)
 2. Add to the registry by creating a pull request including new collections that follow the standard
 3. Websites can use the registry to include the ordinal collections provided on their websites!
 
